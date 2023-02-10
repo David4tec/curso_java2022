@@ -1,0 +1,40 @@
+.titulo1 {
+    color: #037BC0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Raleway";
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1 {
+    font-family: "Playfair";
+    font-size: 5rem;
+}
+h2{
+    font-family: "Playfair";
+    font-size: 4rem;
+}
+@media (min-width: 768px){
+    h2{
+        font-size: 4rem;
+    }
+}
+@media (min-w) {
+    
+}
+h3{
+    font-family: "Playfair";
+    font-size: 4re;
+}
+.hero{
+    background-image: url(principal.jpg);
+    height: 80rem;
+    background-size: cover;
+    background-position: center ;
+}
