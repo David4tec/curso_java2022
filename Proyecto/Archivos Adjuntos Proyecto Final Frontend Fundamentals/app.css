@@ -10,15 +10,18 @@ body {
     font-family: "Raleway";
     font-size: 1.6rem;
     line-height: 2;
+    text-align: center
 }
 
 h1 {
     font-family: "Playfair";
     font-size: 5rem;
+    text-align: center;
 }
 h2{
     font-family: "Playfair";
     font-size: 4rem;
+    text-align: center;
 }
 @media (min-width: 768px){
     h2{
@@ -37,4 +40,45 @@ h3{
     height: 80rem;
     background-size: cover;
     background-position: center ;
+}
+.boton{
+    text-align: center;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #8cbc00;
+}
+.columna1{
+    color: aliceblue;
+    background-color: #037BC0;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.columna2{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    background-color: #037BC0;
+}
+.columna3{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    background-color: #037BC0;
+    
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+.pie1{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+
 }
